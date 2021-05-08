@@ -19,7 +19,7 @@ function setup() {
 	bob4 = new Bob(440, 575, 40);
 	bob5 = new Bob(480, 575, 40);
 
-	roof = new Roof(480, 250, 400, 20);
+	roof = new Roof(400, 250, 400, 20);
 
 	rope1 = new Rope(roof.body, bob1.body, -80);
 	rope2 = new Rope(roof.body, bob2.body, -40);
